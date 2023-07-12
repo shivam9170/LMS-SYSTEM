@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="register-box">
+            <h1>Sign Up</h1>
+            <form onsubmit="signup(event)">
+                <div class="textbox">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Full Name" id="fullname">
+                </div>
+                <div class="textbox">
+                    <i class="fas fa-phone"></i>
+                    <input type="text" placeholder="Contact" id="contact">
+                </div>
+                <div class="textbox">
+                    <i class="fas fa-home"></i>
+                    <input type="text" placeholder="Address" id="address">
+                </div>
+                <div class="textbox">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="textbox">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password" id="password">
+                </div>
+                <div class="textbox">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Confirm Password" id="copassword">
+                </div>
+                <button type="submit" class="btn">Sign Up</button>
+            </form>
+            <div class="member">
+                Already a member? <a href="/HTML/login.html">Login Here!</a>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/JAVASCRIPT/app.js" type="module"></script>
+</html>
